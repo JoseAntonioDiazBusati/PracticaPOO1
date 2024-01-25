@@ -69,26 +69,18 @@ fun main() {
     println("Agregar 400 c.c. de café a la cafereta3...")
 
     //TODO: Llenar la cafetera1 de café.
-    fun llenarCafe(){
-        println("¿Cuánto café desea?")
-        while (cantidad.cafetera1>1000.0 && cantidad.cafetera1<0.0){
-            print("No puede superar la capacidad maxima o ser inferior a 0. Intentalo de nuevo")
-            readln()
-        }
-        while(capacidad>1000.0 && capacidad<0.0){
-            print("No puede superar la capacidad maxima o ser inferior a 0")
-            readln()
-        }
+    fun llenarCafetera(){
+
     }
 
     //TODO: Vaciar la cafetera2.
-
+    fun vaciarCafetera(){}
 
     //TODO: Agregar café a la cafetera2 a la mitad de su capacidad.
-
+    fun mitadCaf2(){}
 
     //TODO: Agregar 400 c.c. de café a la cafereta3
-
+    fun agregarCafe3(){}
 
     println("**********************************************")
     //TODO: Mostrar por pantalla el contenido de las 3 cafeteras
