@@ -1,5 +1,5 @@
-class Taza(color: String,capacidad:Double,cantidad:Double) {
+class Taza(color: String,capacidad:Int,cantidad:Int) {
     var color:String = "Blanco"
-    var capacidad:Double = 50.0
-    var cantidad:Double = 0.0
+    var capacidad:Int = 50
+    var cantidad:Int = 0
 }
